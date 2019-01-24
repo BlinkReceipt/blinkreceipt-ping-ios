@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BlinkReceiptPing"
-  s.version      = "1.5.9"
+  s.version      = "1.6.7"
   s.summary      = "BlinkReceiptPing SDK"
 
   s.description  = <<-DESC
@@ -20,7 +20,7 @@ This is the BlinkReceipt SDK
 
   s.vendored_frameworks = ["BlinkReceiptPing.framework"]
 
-  s.resources = ["BlinkReceiptPing.framework/*.zzip", "BlinkReceiptPing.framework/*.der", "BlinkReceiptPing.framework/*.nib", "BlinkReceiptPing.framework/*.png", "BlinkReceiptPing.framework/*.wav", "BlinkReceiptPing.framework/*.csv"]
+  s.resources = ["BlinkReceiptPing.framework/*.zzip", "BlinkReceiptPing.framework/*.der", "BlinkReceiptPing.framework/*.nib", "BlinkReceiptPing.framework/*.png", "BlinkReceiptPing.framework/*.wav", "BlinkReceiptPing.framework/*.mp3", "BlinkReceiptPing.framework/*.csv"]
   
   s.dependency 'AFNetworking', '~> 3.0'
   s.dependency 'libextobjc', '~> 0.4'
