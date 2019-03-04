@@ -59,12 +59,12 @@ typedef NS_ENUM(NSUInteger, BRMerchantSource) {
 @property (strong, nonatomic, readonly) NSString *blinkReceiptId;
 
 /**
- *  An array of BRProduct's representing the products that were detected on the receipt, if any
+ *  An array of `BRProduct` objects representing the products that were detected on the receipt, if any
  */
 @property (strong, nonatomic, readonly) NSArray<BRProduct*> *products;
 
 /**
- *  An array of BRCoupon's representing the coupons that were detected on the receipt, if any
+ *  An array of `BRCoupon` objects representing the coupons that were detected on the receipt, if any
  */
 @property (strong, nonatomic, readonly) NSArray<BRCoupon*> *coupons;
 
@@ -111,8 +111,8 @@ typedef NS_ENUM(NSUInteger, BRMerchantSource) {
 @property (strong, nonatomic, readonly) BRStringValue *merchantName;
 
 /**
- *  An array of NSNumber* objects wrapping BRMerchantSource values indicating which merchant detection method(s) succeeded in identifying the current merchant.
- *  This will be nil if no merchant was detected (i.e. merchantName == nil)
+ *  An array of `NSNumber` objects wrapping `BRMerchantSource` values indicating which merchant detection method(s) succeeded in identifying the current merchant.
+ *  This will be `nil` if no merchant was detected (i.e. `merchantName == nil`)
  */
 @property (strong, nonatomic, readonly) NSArray<NSNumber*> *merchantSources;
 
@@ -174,7 +174,7 @@ typedef NS_ENUM(NSUInteger, BRMerchantSource) {
 
 
 /**
- *  An array of BRPaymentMethod's representing all payment methods found on the receipt, if any
+ *  An array of `BRPaymentMethod` objects representing all payment methods found on the receipt, if any
  */
 @property (strong, nonatomic, readonly) NSArray<BRPaymentMethod*> *paymentMethods;
 
@@ -189,7 +189,7 @@ typedef NS_ENUM(NSUInteger, BRMerchantSource) {
 @property (strong, nonatomic, readonly) BRStringValue *taxId;
 
 /**
- *  An average confidence (between 0 and 1) for the OCR performed on this receipt
+ *  An average confidence (between 0 and 100) for the OCR performed on this receipt
  */
 @property (nonatomic, readonly) float ocrConfidence;
 
@@ -209,17 +209,17 @@ typedef NS_ENUM(NSUInteger, BRMerchantSource) {
 @property (nonatomic, readonly) BOOL foundBottomEdge;
 
 /**
- *  Indicate whether the subtotal matches the sum of the products and coupons
+ *  Indicates whether the subtotal matches the sum of the products and coupons
  */
 @property (nonatomic, readonly) BOOL subtotalMatches;
 
 /**
- *  Indicate whether the subtotal matches the sum of the products and coupons
+ *  Indicates how many products were still awaiting product intelligence results when the scan session ended
  */
 @property (nonatomic, readonly) NSInteger productsPendingLookup;
 
 /**
- *  Indicate whether the receipt is a duplicate (depends on the detectDuplicates property of BRScanOptions
+ *  Indicate whether the receipt is a duplicate (depends on `BRScanOptions.detectDuplicates` being enabled)
  */
 @property (nonatomic, readonly) BOOL isDuplicate;
 
