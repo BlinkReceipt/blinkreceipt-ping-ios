@@ -142,10 +142,11 @@
                 withCompletion:(nullable void(^)(BRScanResults* _Nullable, NSError* _Nullable))completion;
 
 /**
- * Retrieve resullts from disk for a specific receipt for custom user corrections flow
+ * Retrieve resullts from disk or remotely for a specific receipt for custom user corrections flow
  * @param blinkReceiptId    The receipt id to load from disk
- * @param completion
- *      * `BRScanResults `results` - The images associated with this `blinkReceiptId`
+ * @param completion    This callback is invoked once the SDK has attempted to retrieve results for this receipt
+ *      * `BRScanResults *results` - The scan results associated with this `blinkReceiptId`
+ *
  *      * `NSArray<UIImage*>* images` - The images associated with this `blinkReceiptId`
  *
  * @return The full scan results object for this receipt or `nil` if it could not be found
