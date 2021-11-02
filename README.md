@@ -7,15 +7,16 @@
 ### Podfile
 
 ```ruby
+#You must include this additional source as the BlinkReceipt pod is hosted in a private spec repository
 source 'https://github.com/BlinkReceipt/PodSpecRepo.git'
-source 'https://github.com/CocoaPods/Specs.git'
+source 'https://cdn.cocoapods.org/'
 
-platform :ios, '8.0'
+platform :ios, '9.0'
 
 target 'YourTarget' do
   use_frameworks!
-
-  pod 'BlinkReceiptPing'
+  
+  pod 'BlinkReceiptPing', '~> 1.22' 
 end
 ```
 After editing your Podfile, run `pod install` and then make sure to open the `.xcworkspace` file rather than the `.xcodeproj`
