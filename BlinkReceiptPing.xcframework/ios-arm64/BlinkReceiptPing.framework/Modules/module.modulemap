@@ -1,0 +1,11 @@
+framework module BlinkReceiptPing {
+  umbrella header "BlinkReceiptPing.h"
+
+  export *
+  module * { export * }
+}
+
+module BlinkReceiptPing.Swift {
+  header "BlinkReceiptPing-Swift.h"
+  requires objc
+}
