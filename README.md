@@ -11,7 +11,7 @@
 source 'https://github.com/BlinkReceipt/PodSpecRepo.git'
 source 'https://cdn.cocoapods.org/'
 
-platform :ios, '9.0'
+platform :ios, '12.0'
 
 target 'YourTarget' do
   use_frameworks!
