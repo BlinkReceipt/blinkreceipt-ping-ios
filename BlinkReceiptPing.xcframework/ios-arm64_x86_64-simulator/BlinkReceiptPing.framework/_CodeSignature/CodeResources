@@ -66,7 +66,7 @@
 		</data>
 		<key>Headers/BRScanResults.h</key>
 		<data>
-		3TrtFzsMG5npLtF54gma/fMMrrw=
+		wb/Oksveg5JcTOBy1CMRsr8WCtk=
 		</data>
 		<key>Headers/BRScanResultsDelegate.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fdsqkq2HCkdu2cTJoSNRvwlZ7o8=
+		SMxl3QzbvvUFpeasIoX1U0kXfrA=
 		</data>
 		<key>Loading.png</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>Modules/BlinkReceiptPing.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uUbTPqcfWclABubBDLnvmCbD3BA=
+		GOjmhd5K6b/AsG6KFVSCr1fkH0U=
 		</data>
 		<key>Modules/BlinkReceiptPing.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -234,7 +234,7 @@
 		</data>
 		<key>Modules/BlinkReceiptPing.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		nGO8mzEkLhJV7Eg3LL85ep59pCw=
+		6N5a3PF1orcyT4W9ijUMFp7mNGE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -743,7 +743,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FqoYXusu8RVfAykX+6NfGJCeOfSEyFlsiI06qhsaj8A=
+			G+U/TrZFnjOhSjqeHaSDozYA/cYuxwkpDnZmyUHr0nM=
 			</data>
 		</dict>
 		<key>Headers/BRScanResultsDelegate.h</key>
@@ -995,7 +995,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			B2sv97s2Yx2HK7n0ePz7GTKVlXEydX/VJmKB2hOGMj4=
+			jgn3aweOtWoCW+EArdGO01seU54+MM0sja80Uemuwaw=
 			</data>
 		</dict>
 		<key>Modules/BlinkReceiptPing.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -1030,7 +1030,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			X03YY8E7wzgsmUx4/fvL6CAXMxKz6RzpTyNmWqgbS1U=
+			jGuopgO/IfLDrJfDih61XHroYHMEdrP+LykBkMlhcHU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
