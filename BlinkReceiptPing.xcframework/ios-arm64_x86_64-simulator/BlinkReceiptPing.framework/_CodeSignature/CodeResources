@@ -110,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		/rbIy3E/69BKUaHI91JrsvybQKA=
+		jOEH00npUKI1XLct4nRxeLdMPgU=
 		</data>
 		<key>Loading.png</key>
 		<data>
@@ -251,6 +251,10 @@
 		<key>NunitoSans-Regular.ttf</key>
 		<data>
 		B7TCsqPbbBtbVLmzxGy3E9ZdnWM=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		frYtrwqUQevTI5XEHTU+R2QDRHI=
 		</data>
 		<key>Surveys.storyboardc/BRSurveyViewControllerStoryboardId.nib</key>
 		<data>
@@ -1059,6 +1063,13 @@
 			<key>hash2</key>
 			<data>
 			E61kF4Hm3V8hNPz8mxWJ48ZpAracy7aLdNO9E5weMk4=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Q63hQ/oCWFW7a/aLBAtmBHHBSUK1SuYdfM/qXD0UU2Y=
 			</data>
 		</dict>
 		<key>Surveys.storyboardc/BRSurveyViewControllerStoryboardId.nib</key>
