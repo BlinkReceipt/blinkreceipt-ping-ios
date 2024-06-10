@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BlinkReceiptPing"
-  s.version      = "1.48.0"
+  s.version      = "1.49.0"
   s.summary      = "BlinkReceiptPing SDK"
 
   s.description  = <<-DESC
