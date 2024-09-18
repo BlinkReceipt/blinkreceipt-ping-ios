@@ -1,11 +1,17 @@
-## 1.52.0
+## 1.53.0
+### ADDED
+- Improvements to basket/product extraction for Loblaws Banners in Canada (CA)
+- Improvements to QTY extraction in US for Albertsons banners and various retailers
+- Improvements to Last 4 CC extraction in US
+
+# 1.52.0
 ### ADDED
 - Support to localize data chips, which indicate to the user whether the date, total, or merchant has been successfully detected in the receipt.
 - New property `pricePostfix` data found after a price, if printed on a receipt.
 ### FIXED
 - An issue where a warning was posted by the Thread Performance Checker when entering the scan receipt view on iOS.
 
-## 1.51.0
+# 1.51.0
 - Improvements to basket/product extraction for Loblaws Banners in Canada (CA)
 - Improvements to date extraction in CA, US
 - Improvements to Last 4 CC extraction in US
